@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func sum(nums ...int) {
-	fmt.Println(nums, " ")
-	fmt.Printf("%T is the type of nums\n", nums)
+	fmt.Print(nums, " ")
+	//fmt.Printf("%T is the type of nums\n", nums)
 	total := 0
 	for _, num := range nums {
 		total += num
